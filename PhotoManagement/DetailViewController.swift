@@ -175,11 +175,12 @@ class DetailViewController : UIViewController {
                 targetSize: CGSize(width: 1, height: 1),
                 contentMode: .aspectFit,
                 options: nil) { (image, info) in
+/*
 print(image)
 print("------------------------------------------------------------")
 print(info)
 print("------------------------------------------------------------")
-
+*/
                     if let url = info?["PHImageFileURLKey"] as? URL {
                         retURL = url
                     } else {
